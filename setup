@@ -1,0 +1,14 @@
+#!/bin/bash
+
+## Install the required libraries and packages
+
+sudo apt -y update
+sudo apt -y upgrade 
+sudo apt -y install python3
+sudo apt -y install python3-pip
+pip3 install numpy
+pip3 install pandas
+pip3 install seaborn
+pip3 install matplotlib
+pip3 install jupyter
+pip3 install jupyterthemes
